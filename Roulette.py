@@ -2,7 +2,8 @@ import random
 
 keepplaying = True  
 while keepplaying == True:
-  myInput = input("red, black")
+  myInput = input("Bet your color Type: Red or Black:")
+  myInput = myInput.lower()
   computerInput = random.randint(1,2)
   
   if computerInput == 1:
